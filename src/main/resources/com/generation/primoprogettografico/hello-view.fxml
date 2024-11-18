@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.generation.primoprogettografico.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <children>
+      <Pane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <Text fx:id="ilMioTesto" fill="#810909" layoutX="-3.0" layoutY="103.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" text="Mannaggina World!">
+            </Text>
+            <Button layoutX="103.0" layoutY="154.0" mnemonicParsing="false" onAction="#bottonePremuto" text="Cambia testo" />
+            <Text fx:id="testoCangiante" layoutX="92.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Testo Cangiante" />
+            <Button layoutX="35.0" layoutY="6.0" mnemonicParsing="false" onAction="#bottoneNero" prefHeight="40.0" prefWidth="47.0" text="Nero" />
+            <Button layoutX="2.0" layoutY="53.0" mnemonicParsing="false" onAction="#bottoneVerde" prefHeight="25.0" prefWidth="127.0" text="Verde" textFill="#6ea15c" />
+            <Button layoutX="139.0" layoutY="53.0" mnemonicParsing="false" onAction="#bottoneRosso" prefHeight="54.0" prefWidth="58.0" text="Rosso" textFill="#ee1313" />
+         </children>
+      </Pane>
+   </children>
+</VBox>
